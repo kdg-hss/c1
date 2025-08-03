@@ -11,9 +11,9 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 
-repo="https://raw.githubusercontent.com/cibut2d/c/main"
+julak="https://raw.githubusercontent.com/kdg-hss/c1/main"
 
- wget -O /usr/local/bin/ohpserver "${repo}/ws/ohpserver"
+ wget -O /usr/local/bin/ohpserver "${julak}/s3/ohpserver"
 chmod +x /usr/local/bin/ohpserver
 
 # SSH OHP Port 8181

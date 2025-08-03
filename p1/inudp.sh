@@ -1,10 +1,20 @@
+#!/bin/bash
+# //====================================================
+# //	System Request:Debian 9+/Ubuntu 18.04+/20+
+# //	Author:	Julak Bantur
+# //	Dscription: Xray MultiPort
+# //	email: putrameratus2@gmail.com
+# //  telegram: https://t.me/Cibut2d
+# //====================================================
+# // font color configuration | JULAK BANTUR AUTOSCRIPT
+clear
 cd
 if [ -d /etc/udp ];then
 rm -rf /etc/udp
 fi
 mkdir -p /etc/udp
 
-julak="https://raw.githubusercontent.com/kdg-hss/c1/main/s2"
+julak="https://raw.githubusercontent.com/kdg-hss/c1/main/s4"
 # install udp-custom
 echo downloading udp-custom
 wget -O /etc/udp/udp-custom "${julak}udp-custom-linux-amd64"

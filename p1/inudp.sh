@@ -14,12 +14,12 @@ rm -rf /etc/udp
 fi
 mkdir -p /etc/udp
 
-julak="https://raw.githubusercontent.com/kdg-hss/c1/main/s4"
+julak="https://raw.githubusercontent.com/kdg-hss/c1/main/"
 # install udp-custom
 echo downloading udp-custom
-wget -O /etc/udp/udp-custom "${julak}udp-custom-linux-amd64"
+wget -O /etc/udp/udp-custom "${julak}s4/udp-custom-linux-amd64"
 echo downloading default config
-wget -O /etc/udp/config.json "${julak}config.json"
+wget -O /etc/udp/config.json "${julak}s4/config.json"
 chmod 777 /etc/udp/config.json
 chmod +x /etc/udp/udp-custom
 
